@@ -11,7 +11,20 @@ A powerful, local AI agent capable of ingesting PDFs, answering questions with c
 ## Setup
 
 1. **Install Python**: Ensure Python 3.9+ is installed and added to your PATH.
-2. **Install Dependencies**:
+2. **Create a Virtual Environment**:
+   ```bash
+   python -m venv venv
+   ```
+3. **Activate the Environment**:
+   - **Windows**:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   - **Mac/Linux**:
+     ```bash
+     source venv/bin/activate
+     ```
+4. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
